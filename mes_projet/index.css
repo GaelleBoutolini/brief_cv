@@ -1,0 +1,160 @@
+body {
+    background-color: #bcd2d6;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    padding: 2rem;
+    color: black;
+}
+
+.presentation img {
+    width: 13rem;
+    height: 11rem;
+    padding: 2rem;
+    cursor: pointer;
+    align-content: center;
+}
+
+.presentation h1 {
+    text-align: center;
+    flex-wrap: wrap;
+    color: yellow;
+    font-size: 80px;
+    text-decoration: underline;
+}
+
+.presentation h3 {
+    color:midnightblue;
+    text-align: center;
+    font-size: 30px;
+}
+
+.presentation {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.presentation p {
+    color: blue;
+    text-align: center;
+}
+
+.main {
+    background-color: #827ab0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.perso {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    color: black;
+    border: 3px solid aliceblue;
+    background: aliceblue;
+    margin: 30px;
+}
+
+.perso-h1 {
+    font-size: 25px;
+    color:midnightblue;
+    background-color: #bcd2d6;
+}
+
+.perso-p{
+    font-size: 20px;
+}
+.menu{
+    color: yellow;
+}
+
+.menu a:link {
+    border-bottom: 2px solid yellow;
+    color: blue;
+    font-size: 20px;  
+}
+
+.menu a:visited {
+    border-bottom: 2px solid yellow;
+}
+
+.menu .title {
+    text-align: center;
+}
+
+.site{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        flex-wrap: wrap;
+        color: black;
+        border: 3px solid aliceblue;
+    background: aliceblue;
+    margin: 30px;
+    }
+.site-h1 {
+    font-size: 25px;
+    color:midnightblue;
+    background-color: #bcd2d6;
+}
+
+.site-p{
+    font-size: 20px;
+}
+.visite{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        flex-wrap: wrap;
+        color: black;
+        border: 3px solid aliceblue;
+    background: aliceblue;
+    margin: 30px;
+    }
+    .visite-p{
+        font-size: 20px;
+    }
+.visite-h1 {
+    font-size: 25px;
+    color:midnightblue;
+    border: 1px solid #bcd2d6;
+    background-color: #bcd2d6;
+    display: inline-block;
+}
+
+.end-footer{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction:row;
+}
+.end-footer .paragraphe{
+    padding: 10px;
+    margin-left: 70%;
+}
+
+ .end-footer .lien{
+    text-align: center;
+    margin: 13px;
+    padding: 10px;
+    margin-right: 70%;
+}
+.lien a{
+    color: blue;
+    text-decoration: underline;
+}
+
+
